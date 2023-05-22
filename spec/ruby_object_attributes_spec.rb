@@ -93,3 +93,15 @@ describe 'Person' do
     end
   end
 end
+
+# lib/dog.rb
+
+class Dog
+  attr_accessor :name, :breed
+end
+
+# lib/person.rb
+
+class Person
+  attr_accessor :name, :job
+end
